@@ -198,3 +198,20 @@ figure {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
 }
+
+/*MEDIA QUERY */
+@media screen and (max-width: 800px){
+  main {
+    width:70%;
+    margin:30px auto;
+    background-color: #EBEBE0;
+    padding:auto;
+  }
+
+  @media screen and (max-width: 1200px){
+  main {
+    width:70%;
+    margin:10px auto;
+    background-color: white;
+    padding:10px;
+  }
