@@ -49,12 +49,11 @@ section {
     font-family: SEGOEUI;
     src:
         url("../fonts/SEGOEUI.ttf");
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2) format("woff2"),
+      /*  url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2) format("woff2"),
         url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff) format("woff"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf) format("truetype");
-    font-weight: thin;
-    font-style: normal;
-}
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf) format("truetype");*/
+    font-weight: 100;
+    font-style: normal; }
 
 body {
   font-family: SEGOEUI, arial, sans-serif;
@@ -98,9 +97,7 @@ a:visited{
 
 a:hover{
     color:#4C3639;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
-}
-}
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.3); }
 
 a:active{
   color:#4C3639;
@@ -204,15 +201,17 @@ figure {
   main {
     width:70%;
     margin:30px auto;
-    flex-direction: column; 
+    flex-direction: column;
     background-color: #EBEBE0;
-    padding:auto;
+    padding: 10px;
   }
+}
 
   @media screen and (max-width: 1200px){
   main {
     width:70%;
     margin:10px auto;
     background-color: white;
-    padding:10px;
+    padding: 10px;
   }
+}
