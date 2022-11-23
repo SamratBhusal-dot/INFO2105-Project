@@ -204,6 +204,7 @@ figure {
   main {
     width:70%;
     margin:30px auto;
+    flex-direction: column; 
     background-color: #EBEBE0;
     padding:auto;
   }
